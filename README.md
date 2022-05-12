@@ -23,7 +23,7 @@ docker run --name some-nginx -v /some/content:/usr/share/nginx/html:ro -d nginx
 docker start คําสั่ง start container วิธีใช้คือ
 docker start [ชื่อ container]
 
-docker stop คําสั่ง stop container
+docker stop คําสั่ง stop container วิธีใช้คือ
 docker stop [ชื่อ container]
 
 docker stats คําสั่งใช้ดูการใช้ Resource ของแต่ละ Containner (CPU, RAM) รูปแบบการใช้คือ
